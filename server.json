@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TheCompanyAtlas/hungary-company",
+  "title": "Hungary Company Registry",
+  "description": "Hungarian company search by name, tax and registration number, with officers and shareholders.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/TheCompanyAtlas/hungary-company-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://thecompanyatlas.com/tools/hungary-company-registry",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thecompanyatlas.com/mcp/hungary"
+    }
+  ]
+}
